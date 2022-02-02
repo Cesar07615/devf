@@ -1,0 +1,26 @@
+h1:hover{
+    color:cyan;
+    font-size:55px;
+}
+h2{
+    display: inline;
+}
+h2:hover{
+    color:blue;
+    font-size: x-small;
+    
+}
+p:hover{
+    background-color:darkgreen;
+}
+li:first-child{
+    color:darkred;
+    
+}
+li:last-child::first-letter{
+    
+    color:darkorange;
+}
+li:last-child:hover{
+    color:darksalmon;
+}

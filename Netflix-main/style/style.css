@@ -1,0 +1,76 @@
+*{
+    background: #000;
+}
+.barra{
+    background: black;
+}
+#imgnetflix{
+    width: 120px;
+    padding: 20px;
+}
+.ver{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color:white;
+}
+.ver h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.perfiles{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.perfiles div{
+    margin:10px;
+}
+.perfiles img{
+    width: 130px;
+    height: 130px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    border:2px solid #000F;
+}
+.perfiles img:hover{
+    border:2px solid white;
+}
+#agregar:hover{
+    background: lightgray;
+}
+.perfiles a{
+    color:lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.administrar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.administrar h3{
+    color:lightgrey;
+    border:.5px solid lightgray;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.administrar h3:hover{
+    color:white;
+    border: .5px solid white;
+}
+.administrar a{
+    text-decoration: none;
+}
